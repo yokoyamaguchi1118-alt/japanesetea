@@ -93,6 +93,22 @@ body {
 .kissako .art-card h3 { font-size: 17px; margin: 0 0 8px; line-height: 1.35; }
 .kissako .art-card p { font-size: 13px; opacity: 0.68; margin: 0; }
 
+/* ARTICLE PAGE */
+.kissako .article { padding: 60px 32px 90px; }
+.kissako .article-wrap { max-width: 720px; margin: 0 auto; }
+.kissako .article-back { display: block; font-size: 12px; color: var(--ink); opacity: 0.6; text-decoration: none; margin-bottom: 28px; }
+.kissako .article-back:hover { opacity: 1; }
+.kissako .article h1 { font-size: 38px; margin: 10px 0 12px; }
+.kissako .article-date { font-size: 12px; opacity: 0.5; margin: 0 0 40px; }
+.kissako .article-body { font-size: 16px; }
+.kissako .article-body p { margin: 0 0 20px; opacity: 0.85; }
+.kissako .article-body h2 { font-family: 'Shippori Mincho B1', serif; font-size: 24px; margin: 40px 0 16px; font-weight: 500; }
+.kissako .article-body ul,
+.kissako .article-body ol { margin: 0 0 20px; padding-left: 22px; opacity: 0.85; }
+.kissako .article-body li { margin-bottom: 8px; }
+.kissako .article-body strong { color: var(--ink); }
+.kissako .article-body a { color: var(--kaki); }
+
 /* FOOTER */
 .kissako footer { border-top: 1px solid var(--line); padding: 40px 32px; }
 .kissako .foot-grid { max-width: 1180px; margin: 0 auto; display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; flex-wrap: wrap; }

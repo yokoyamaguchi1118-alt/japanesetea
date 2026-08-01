@@ -1,20 +1,14 @@
+import Link from "next/link";
+import SiteNav from "@/components/SiteNav";
+import SiteFooter from "@/components/SiteFooter";
+import { getAllArticles } from "@/lib/articles";
+
 export default function Home() {
+  const articles = getAllArticles();
+
   return (
     <div className="kissako">
-      <nav>
-        <div className="brand">
-          <span className="display">Kissako</span>
-          <span className="jp">喫茶去</span>
-        </div>
-        <div className="navlinks">
-          <a href="#sencha">Sencha</a>
-          <a href="#matcha">Matcha</a>
-          <a href="#hojicha">Hojicha</a>
-          <a href="#guides">Guides</a>
-          <a href="#about">About</a>
-        </div>
-        <div className="lang">EN ▾</div>
-      </nav>
+      <SiteNav />
 
       <section className="hero">
         <div className="hero-grid">
@@ -155,37 +149,22 @@ export default function Home() {
           <div className="sub" />
         </div>
         <div className="art-grid">
-          <div className="art-card">
-            <span className="tag mono">RANKING</span>
-            <h3>The 5 best Japanese teas for beginners, ranked</h3>
-            <p>A starting point for your first order — no prior knowledge needed.</p>
-          </div>
-          <div className="art-card">
-            <span className="tag mono">GUIDE</span>
-            <h3>What is Sencha? A complete beginner&apos;s guide</h3>
-            <p>Everything behind Japan&apos;s most common everyday tea.</p>
-          </div>
-          <div className="art-card">
-            <span className="tag mono">GUIDE</span>
-            <h3>Matcha vs. green tea: what&apos;s actually different</h3>
-            <p>Same plant, different process — here&apos;s what it changes in the cup.</p>
-          </div>
+          {articles.map((article) => (
+            <Link
+              key={article.slug}
+              href={`/articles/${article.slug}`}
+              className="art-card"
+              style={{ textDecoration: "none", color: "inherit", display: "block" }}
+            >
+              <span className="tag mono">{article.tag}</span>
+              <h3>{article.title}</h3>
+              <p>{article.description}</p>
+            </Link>
+          ))}
         </div>
       </section>
 
-      <footer id="about">
-        <div className="foot-grid">
-          <div className="brand">
-            <span className="display">Kissako</span>
-            <span className="jp">喫茶去</span>
-          </div>
-          <p className="foot-note">
-            Kissako earns a commission on some purchases made through our
-            links — it never changes what we recommend, only how we keep the
-            tea flowing. Full policy in About.
-          </p>
-        </div>
-      </footer>
+      <SiteFooter />
     </div>
   );
 }
