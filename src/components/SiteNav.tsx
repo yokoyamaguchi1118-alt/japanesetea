@@ -14,7 +14,7 @@ export default function SiteNav() {
         <Link href="/#matcha">Matcha</Link>
         <Link href="/#hojicha">Hojicha</Link>
         <Link href="/#guides">Guides</Link>
-        <Link href="/#about">About</Link>
+        <Link href="/about">About</Link>
       </div>
       <div className="lang">EN ▾</div>
     </nav>

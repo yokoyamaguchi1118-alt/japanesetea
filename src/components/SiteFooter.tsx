@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function SiteFooter() {
   return (
     <footer id="about">
@@ -11,6 +13,11 @@ export default function SiteFooter() {
           links — it never changes what we recommend, only how we keep the
           tea flowing. Full policy in About.
         </p>
+      </div>
+      <div className="foot-links">
+        <Link href="/about">About</Link>
+        <Link href="/privacy-policy">Privacy Policy</Link>
+        <Link href="/affiliate-disclosure">Affiliate Disclosure</Link>
       </div>
     </footer>
   );
