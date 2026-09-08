@@ -114,6 +114,7 @@ body {
 .kissako .article-body th { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.6; font-weight: 500; }
 .kissako .article-body td { opacity: 0.85; }
 .kissako .article-body tr:last-child td { border-bottom: none; }
+.kissako .article-body img { display: block; width: 100%; max-width: 100%; height: auto; margin: 8px 0 32px; border-radius: 4px; border: 1px solid var(--line); background: #eeead9; }
 
 .kissako .article-disclosure { font-style: italic; font-size: 12.5px; line-height: 1.6; opacity: 0.6; margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
 .kissako .article-disclosure a { color: var(--kaki); font-style: normal; }

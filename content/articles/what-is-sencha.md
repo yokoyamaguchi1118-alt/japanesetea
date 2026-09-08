@@ -5,6 +5,8 @@ description: "Everything behind Japan's most common everyday tea — what it act
 date: "2026-09-08"
 ---
 
+![Pouring sencha tea from a kyusu teapot into a cup](/articles/what-is-sencha/hero.svg)
+
 If you've ever ordered "Japanese green tea" anywhere outside Japan, there's a good chance what you got was sencha. **Sencha is the everyday, unshaded green tea that makes up about three-quarters of all tea grown in Japan** — grassy, a little sweet, and the cup most Japanese households actually drink, not the one saved for special occasions.
 
 This guide covers what sencha actually is, how it differs from the other Japanese teas you'll see on this site, and how to brew it so it doesn't come out bitter.
@@ -32,6 +34,8 @@ The easiest way to place sencha is next to the teas it's most often confused wit
 
 ## Why Sencha Tastes Bitter (and How to Fix It)
 
+![Thermometer showing the ideal 70-80°C brewing temperature for sencha](/articles/what-is-sencha/temperature.svg)
+
 If you've had sencha and found it bitter, the tea probably isn't the problem — the water was.
 
 **Sencha is far more sensitive to water temperature than black tea or coffee.** Boiling water pulls out excess tannins and catechins, which is exactly what reads as bitterness. Most beginners brew sencha the way they'd brew any other tea — straight off the boil — and that's the single most common mistake.
@@ -45,6 +49,8 @@ Here's the fix:
 If you don't have a thermometer, a rough trick works fine: boil the water, then let it sit for about 3–4 minutes before pouring. That's usually enough to drop it into range.
 
 ## How to Brew Sencha, Step by Step
+
+![Diagram showing sencha brewing ratio: 2g leaves, 70-80°C water, 60-90 second steep](/articles/what-is-sencha/brewratio.svg)
 
 1. **Warm your teapot or cup** with a splash of hot water, then discard it. This keeps the brewing temperature more stable.
 2. **Add the leaves** — about 2g (roughly one teaspoon) per 150ml of water.

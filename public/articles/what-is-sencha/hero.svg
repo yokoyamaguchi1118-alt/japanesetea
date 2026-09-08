@@ -1,0 +1,35 @@
+<svg viewBox="0 0 800 420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eeead9"/>
+      <stop offset="100%" stop-color="#dfe3d2"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg)"/>
+  <line x1="60" y1="330" x2="740" y2="330" stroke="#23201a" stroke-width="2" opacity="0.25"/>
+  <g>
+    <path d="M300 200 C300 175 330 160 380 160 L480 160 C530 160 560 180 560 215 L555 290 C553 310 535 322 505 322 L360 322 C335 322 318 310 316 292 Z"
+      fill="#37493a" stroke="#23201a" stroke-width="3"/>
+    <ellipse cx="430" cy="160" rx="65" ry="14" fill="#2c3a2a" stroke="#23201a" stroke-width="3"/>
+    <circle cx="430" cy="150" r="8" fill="#23201a"/>
+    <path d="M310 205 C270 200 260 250 300 270" stroke="#23201a" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M555 210 C605 195 640 205 655 175" stroke="#37493a" stroke-width="16" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M655 180 C660 210 650 240 645 270" stroke="#8fae52" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <g>
+    <path d="M600 285 L695 285 L685 325 C683 335 675 340 663 340 L632 340 C620 340 612 335 610 325 Z"
+      fill="#eeead9" stroke="#23201a" stroke-width="3"/>
+    <ellipse cx="647" cy="285" rx="47" ry="9" fill="#5c6e46" stroke="#23201a" stroke-width="2.5"/>
+  </g>
+  <g stroke="#37493a" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6">
+    <path d="M630 270 C622 250 638 238 630 218"/>
+    <path d="M647 268 C639 248 655 236 647 216"/>
+    <path d="M664 270 C656 250 672 238 664 218"/>
+  </g>
+  <g fill="#5c7a34" opacity="0.85">
+    <ellipse cx="150" cy="300" rx="10" ry="4" transform="rotate(20 150 300)"/>
+    <ellipse cx="175" cy="310" rx="10" ry="4" transform="rotate(-15 175 310)"/>
+    <ellipse cx="130" cy="315" rx="9" ry="3.5" transform="rotate(45 130 315)"/>
+    <ellipse cx="200" cy="295" rx="9" ry="3.5" transform="rotate(-30 200 295)"/>
+  </g>
+</svg>
