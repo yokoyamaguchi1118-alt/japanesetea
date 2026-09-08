@@ -1,0 +1,34 @@
+<svg viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="480" fill="#eeead9"/>
+  <text x="450" y="40" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="24" font-weight="800" fill="#23201a">Which tea should you start with?</text>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#23201a"/>
+    </marker>
+  </defs>
+  <rect x="40" y="80" width="480" height="55" rx="8" fill="#dfe3d2"/>
+  <text x="60" y="113" font-family="monospace" font-size="15" fill="#23201a">You drink black coffee, want similar depth</text>
+  <line x1="530" y1="107" x2="600" y2="107" stroke="#23201a" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <rect x="610" y="82" width="230" height="50" rx="25" fill="#3d5c2e"/>
+  <text x="725" y="114" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#eeead9">Gyokuro</text>
+  <rect x="40" y="150" width="480" height="55" rx="8" fill="#dfe3d2"/>
+  <text x="60" y="183" font-family="monospace" font-size="15" fill="#23201a">You want a daily, low-effort green tea</text>
+  <line x1="530" y1="177" x2="600" y2="177" stroke="#23201a" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <rect x="610" y="152" width="230" height="50" rx="25" fill="#8fae52"/>
+  <text x="725" y="184" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Sencha</text>
+  <rect x="40" y="220" width="480" height="55" rx="8" fill="#dfe3d2"/>
+  <text x="60" y="253" font-family="monospace" font-size="15" fill="#23201a">You want a ritual, not just a drink</text>
+  <line x1="530" y1="247" x2="600" y2="247" stroke="#23201a" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <rect x="610" y="222" width="230" height="50" rx="25" fill="#5c7a34"/>
+  <text x="725" y="254" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#eeead9">Matcha</text>
+  <rect x="40" y="290" width="480" height="55" rx="8" fill="#dfe3d2"/>
+  <text x="60" y="323" font-family="monospace" font-size="15" fill="#23201a">You want low caffeine, especially at night</text>
+  <line x1="530" y1="317" x2="600" y2="317" stroke="#23201a" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <rect x="610" y="292" width="230" height="50" rx="25" fill="#c78a3e"/>
+  <text x="725" y="324" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Hojicha</text>
+  <rect x="40" y="360" width="480" height="55" rx="8" fill="#dfe3d2"/>
+  <text x="60" y="393" font-family="monospace" font-size="15" fill="#23201a">Straight green tea feels too intense</text>
+  <line x1="530" y1="387" x2="600" y2="387" stroke="#23201a" stroke-width="2.5" marker-end="url(#arrow2)"/>
+  <rect x="610" y="362" width="230" height="50" rx="25" fill="#a8501e"/>
+  <text x="725" y="394" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#eeead9">Genmaicha</text>
+</svg>

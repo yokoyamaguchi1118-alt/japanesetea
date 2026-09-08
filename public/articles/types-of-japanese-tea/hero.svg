@@ -1,0 +1,37 @@
+<svg viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="320" fill="#eeead9"/>
+  <line x1="40" y1="260" x2="860" y2="260" stroke="#23201a" stroke-width="2" opacity="0.2"/>
+  <g>
+    <path d="M60 220 L180 220 L165 255 C163 262 157 266 148 266 L92 266 C83 266 77 262 75 255 Z" fill="#eeead9" stroke="#23201a" stroke-width="2.5"/>
+    <ellipse cx="120" cy="220" rx="60" ry="12" fill="#8fae52" stroke="#23201a" stroke-width="2.5"/>
+    <text x="120" y="295" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Sencha</text>
+  </g>
+  <g>
+    <path d="M230 215 C230 245 250 268 285 268 C320 268 340 245 340 215 Z" fill="#eeead9" stroke="#23201a" stroke-width="2.5"/>
+    <ellipse cx="285" cy="215" rx="55" ry="11" fill="#5c7a34" stroke="#23201a" stroke-width="2.5"/>
+    <text x="285" y="295" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Matcha</text>
+  </g>
+  <g>
+    <path d="M410 230 L500 230 L490 260 C488 267 482 271 474 271 L436 271 C428 271 422 267 420 260 Z" fill="#eeead9" stroke="#23201a" stroke-width="2.5"/>
+    <ellipse cx="455" cy="230" rx="45" ry="9" fill="#3d5c2e" stroke="#23201a" stroke-width="2.5"/>
+    <text x="455" y="295" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Gyokuro</text>
+  </g>
+  <g>
+    <path d="M550 225 L660 225 L648 260 C646 267 639 272 630 272 L580 272 C571 272 564 267 562 260 Z" fill="#eeead9" stroke="#23201a" stroke-width="2.5"/>
+    <ellipse cx="605" cy="225" rx="55" ry="11" fill="#c78a3e" stroke="#23201a" stroke-width="2.5"/>
+    <text x="605" y="295" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="18" font-weight="700" fill="#23201a">Hojicha</text>
+  </g>
+  <g>
+    <path d="M700 228 L800 228 L789 260 C787 267 781 271 773 271 L727 271 C719 271 713 267 711 260 Z" fill="#eeead9" stroke="#23201a" stroke-width="2.5"/>
+    <ellipse cx="750" cy="228" rx="50" ry="10" fill="#8fae52" stroke="#23201a" stroke-width="2.5"/>
+    <circle cx="735" cy="226" r="2.5" fill="#e9d3a0"/>
+    <circle cx="750" cy="230" r="2.5" fill="#e9d3a0"/>
+    <circle cx="765" cy="225" r="2.5" fill="#e9d3a0"/>
+    <circle cx="742" cy="223" r="2.5" fill="#e9d3a0"/>
+    <text x="750" y="295" text-anchor="middle" font-family="'Shippori Mincho B1', serif" font-size="17" font-weight="700" fill="#23201a">Genmaicha</text>
+  </g>
+  <g stroke="#37493a" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M110 205 C104 190 116 180 110 165"/>
+    <path d="M130 205 C124 190 136 180 130 165"/>
+  </g>
+</svg>
