@@ -108,6 +108,12 @@ body {
 .kissako .article-body li { margin-bottom: 8px; }
 .kissako .article-body strong { color: var(--ink); }
 .kissako .article-body a { color: var(--kaki); }
+.kissako .article-body table { width: 100%; border-collapse: collapse; margin: 0 0 24px; font-size: 14px; }
+.kissako .article-body th,
+.kissako .article-body td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+.kissako .article-body th { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.04em; text-transform: uppercase; opacity: 0.6; font-weight: 500; }
+.kissako .article-body td { opacity: 0.85; }
+.kissako .article-body tr:last-child td { border-bottom: none; }
 
 .kissako .article-disclosure { font-style: italic; font-size: 12.5px; line-height: 1.6; opacity: 0.6; margin: 0 0 32px; padding-bottom: 24px; border-bottom: 1px solid var(--line); }
 .kissako .article-disclosure a { color: var(--kaki); font-style: normal; }
